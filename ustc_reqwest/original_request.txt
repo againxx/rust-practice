@@ -1,0 +1,23 @@
+POST /login HTTP/1.1
+Host: passport.ustc.edu.cn
+Cookie: _ga=GA1.3.704489097.1647679174; lang=zh; JSESSIONID=BF46AFCA6935FD0A97ADCB384CF784B4
+Content-Length: 151
+Cache-Control: max-age=0
+Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Linux"
+Upgrade-Insecure-Requests: 1
+Origin: https://passport.ustc.edu.cn
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://passport.ustc.edu.cn/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Connection: close
+
+model=uplogin.jsp&CAS_LT=LT-25d17feefe1b4c709f51b0164904c5ce&service=&warn=&showCode=1&qrcode=&username=BA18001018&password=gjn19930602&LT=9287&button=
