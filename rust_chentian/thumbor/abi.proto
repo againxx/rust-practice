@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package abi;
+package abi; // prost will generate abi.rs
 
 message ImageSpec { repeated Spec specs = 1; }
 
@@ -43,6 +43,7 @@ message Filter {
         OCEANIC = 1;
         ISLANDS = 2;
         MARINE = 3;
+        // more: https://docs.rs/photon-rs/0.3.1/photon-rs/filters/fn.filter.html
     }
     Filter filter = 1;
 }

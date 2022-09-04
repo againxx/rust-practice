@@ -68,6 +68,7 @@ pub mod filter {
         Unspecified = 0,
         Oceanic = 1,
         Islands = 2,
+        /// more: <https://docs.rs/photon-rs/0.3.1/photon-rs/filters/fn.filter.html>
         Marine = 3,
     }
 }

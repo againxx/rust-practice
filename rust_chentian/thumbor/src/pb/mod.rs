@@ -11,6 +11,7 @@ impl ImageSpec {
     }
 }
 
+// Generate a String from ImageSpec
 impl From<&ImageSpec> for String {
     fn from(image_spec: &ImageSpec) -> Self {
         let data = image_spec.encode_to_vec();
@@ -18,6 +19,7 @@ impl From<&ImageSpec> for String {
     }
 }
 
+// Generate an ImageSpec from &str
 impl TryFrom<&str> for ImageSpec {
     type Error = anyhow::Error;
 
@@ -101,7 +103,6 @@ mod tests {
         let spec2 = Spec::new_filter(filter::Filter::Marine);
         let image_spec = ImageSpec::new(vec![spec1, spec2]);
         let s: String = image_spec.borrow().into();
-        println!("{}", s);
         assert_eq!(image_spec, s.as_str().try_into().unwrap());
     }
 }
